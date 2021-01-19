@@ -1,0 +1,206 @@
+body{
+    font-family: 'Bangers', cursive;
+    margin: 0px;
+    padding: 0px; 
+    background: url('8914431.jpg');
+    height:100%;
+    width: auto;
+    color: white;
+    background-repeat: repeat;
+    background-attachment: fixed;
+
+}
+.left{
+    animation-name: breathing;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite ;
+    animation-timing-function: ease-in;
+    z-index: -1;
+    position:sticky;
+    display: inline-block;
+    left: 3px;
+    top:20px;
+    
+}
+@keyframes breathing{
+    0%{
+        opacity: 0.2;
+    }
+
+    50%{
+       opacity: 1; 
+    }
+ 
+    100%{
+        opacity: 0.2;
+    }
+}
+@keyframes revbreathing{
+    0%{
+        opacity: .7;
+    }
+
+    50%{
+       opacity: 0.1; 
+    }
+ 
+    100%{
+        opacity: .7;
+    }
+}
+
+
+.mid{
+    box-shadow: 10px 10px 15px black;
+    width:180px;
+    background: rgba(126, 79, 60, 0.26);
+    width:55%;
+    text-align:center;
+    display: block;
+    border: 5px solid rgb(204, 6, 39);
+    border-radius: 16px;
+    margin: 20px auto;
+    
+    
+}
+.right{
+    position:absolute;
+    display: inline-block;
+    top:20px;
+    right:32px;
+}
+.navbar{
+    display: inline-block;
+    padding-inline-start: 0px;
+}
+.navbar li{
+    display: inline-block;  
+    width:180px;  
+    font-size:25px;
+    color: white;
+    /* border: 1px solid rgb(255, 0, 0); */
+    margin: 20px;
+  
+     
+}
+.navbar li a{
+    font-family: 'Audiowide', cursive;
+    text-shadow: 7px 7px 5px black;
+    color: white;
+    text-decoration: none;
+   
+    
+    
+}
+.navbar li a :hover{
+    box-shadow: 7px 7px 5px black;
+    opacity: 0.7;
+    transition: 0.2s; 
+    animation-duration: 3.5s;
+    animation-name:revbreathing;
+    animation-iteration-count: infinite ;
+    animation-timing-function: ease-in;
+    animation-delay: 1.5s;
+}
+
+.left img{
+    width:100px;
+    border: solid black;
+    border-radius: 20px;
+    margin:0px 30px;
+}
+h1{
+    text-shadow:5px 5px 10px rgb(0, 0, 0);
+    font-size: 45px;
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Permanent Marker', cursive;
+    
+    text-align: center;
+    
+    
+    
+}
+h2{
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+
+}
+hi{ 
+    text-shadow:5px 5px 10px rgb(163, 0, 0);
+    font-size: 45px;
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+.btn{
+    font-size: larger;
+    font-family: 'Langar', cursive;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 16px;
+    background: rgb(184, 12, 26);
+    
+
+}
+.btn a{
+    text-size-adjust: 1.5;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.btn a:hover{
+    animation-name: breathing;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite ;
+    animation-timing-function: ease-in;
+    transform: scale(1.5);
+    opacity: 0.7;
+    transition: 0.2s;
+}
+.mid2{
+    background: rgba(84, 105, 139, 0.26);
+    text-align: center;
+    width:69%;
+    display: block;
+    border: 5px solid rgb(45, 123, 226);
+    border-radius: 16px;
+    margin:auto;
+    
+    
+
+}
+.mid3{
+    background: rgba(79, 110, 95, 0.26);
+    text-align: center;
+    width:69%;
+    display: block;
+    border: 5px solid rgb(0, 122, 133);
+    border-radius: 16px;
+    margin: 20px auto;
+
+}
+.mid4{
+    background: rgba(121, 114, 68, 0.26);
+    text-align: center;
+    width:69%;
+    display: block;
+    border: 5px solid rgb(255, 187, 0);
+    border-radius: 16px;
+    margin: 20px auto;
+
+}
+.mid5{
+    background: rgba(153, 95, 95, 0.267);
+    text-align: center;
+    width:69%;
+    display: block;
+    border: 5px solid rgb(255, 0, 0);
+    border-radius: 16px;
+    margin: 20px auto;
+
+}
+.i{
+    box-shadow: 10px 10px 15px black;
+    width:180px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
